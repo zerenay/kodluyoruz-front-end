@@ -1,0 +1,102 @@
+/****** Body Background-color *******/
+body {
+    background-color:   #333;
+}
+/********** Navbar - Start **********/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5c0101;
+    color: white;
+}
+
+.menu-icon {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.menu-icon div:nth-child(1) {
+    top: 0;
+}
+
+.menu-icon div:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-icon div:nth-child(3) {
+    bottom: 0;
+}
+
+/* Menü ikonunu tıklayınca animasyon */
+.menu-icon.active div:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.menu-icon.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.active div:nth-child(3) {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+/********* Logo *********/
+#h1 {
+    height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+/********** Navbar - End **********/
+/********* Content - Start *********/
+
+.article {
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    margin-left: 22%;   
+}
+#section {
+    margin-top: -32px;
+    overflow: auto;
+}
+/********* Content - End *********/
+/*********** Footer - Start **************/
+#footer {
+    margin-left: 50%;
+    color: #5c0101;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a :link {
+    text-decoration: none;
+}
+a :hover {
+    color: azure;
+}
+a :active {
+    color: brown;
+}
+a :visited {
+    color: chocolate;
+}
+a {
+    text-decoration: none;
+    color: #5c0101;
+}
+/*********** Footer - End **************/
