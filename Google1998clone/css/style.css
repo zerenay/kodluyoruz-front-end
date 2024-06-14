@@ -1,0 +1,38 @@
+.table
+{
+    width: 90%;
+    height: 145px;
+    margin: 0 auto;
+    border-style: none;
+}
+img{
+    width:"351";
+    height:"113";
+}
+.yaziOzellik
+{
+    padding: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EFEFEF;
+}
+#td1 {
+    background-color: #7EE5DA;
+    width: 600px;
+}
+#td2 {
+    font-size: small;
+    background-color: #70CCC2;
+}
+a:nth-child(even)
+{
+    color: blue;
+}
+
+#td3 {
+    font-size: small;
+    background-color: #62B3AA;
+}
+.p {
+    font-size: small;
+    
+}
