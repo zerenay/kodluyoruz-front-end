@@ -1,0 +1,158 @@
+.full {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/***** Navbar Start *****/
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* fare işaretçisi link üzerinde */
+a:hover {
+    text-decoration: underline;
+}
+
+a img:hover {
+    background-color: rgba(196, 196, 196, 0.493);
+    border-radius: 50%;
+}
+
+#img1 {
+    width: 23.5px;
+    height: 23.5px;
+    margin: -7px;
+    display: inline-block;
+}
+
+#img2 {
+    width: 32.5px;
+    height: 32.5px;
+    margin: -12px;
+    margin-left: 2px;
+    border-radius: 50%;
+}
+
+svg {
+    height: 40px;
+    width: 40px;
+    margin: -12px;
+    margin-left: -28px;
+    margin-bottom: -15.5px;
+}
+
+/***** Navbar End *****/
+
+/***** Search Bar Start *****/
+section img {
+
+    margin-top: 185px;
+    margin-bottom: auto;
+    /* margin-left: 700px;
+    margin-right: -500px; */
+}
+
+search {
+    margin-top: 20px;
+
+}
+
+.search-bar {
+    width: 550px;
+    height: 44px;
+    padding: 0 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 22px;
+    display: flex;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar .icons {
+    display: flex;
+
+}
+
+.search-bar .icons img {
+    width: 120px;
+    height: 35px;
+    margin-top: 2px;
+    cursor: pointer;
+
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 11px 16px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/***** Search Bar End *****/
+/***** Footer Start *****/
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+    margin-top: 370px;
+    font-size: 14px;
+    background-color: #c6c4c43e;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+div a p {
+    font-size: 14px;
+}
+
+div a p:hover {
+    text-decoration: underline;
+}
+
+/***** Footer End *****/
